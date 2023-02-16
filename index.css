@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@200;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono';
+}
+
+.main-header {
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: slateblue;
+}
+
+.main-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+.main-button-container button {
+  font-size: 10rem;
+  border-radius: 20px;
+  background-color: tomato;
+}
+
+.main-button-container button:hover {
+  background-color: rgb(249, 56, 22);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.main-ol {
+  border-radius: 5px;
+  list-style: inside;
+  background-color: rgba(84, 222, 229, 0.5);
+  margin: 5% 15%;
+  padding: 10px 30%;
+}
